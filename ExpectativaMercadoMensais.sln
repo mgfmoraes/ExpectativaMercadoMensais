@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{2BE69611-CBF0-466D-ABEA-4F4190544FF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{73661322-9CB2-49E9-946F-F87E4BA7092E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{038797AB-4A16-4A7E-AB9A-C9D42202E15D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{FB863949-242E-458E-BDCC-2C37E08C251C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Test", "6 - Test", "{1E2B57D9-CA00-4E4A-B807-A7A4186E48D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Data", "5.1 - Data", "{9A574F04-BE9A-40CB-AC2C-6967DE748A9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - CrossCutting", "5.2 - CrossCutting", "{8085299D-D45D-4E57-B16C-52D2C229EDED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Service", "2 - Service", "{4FF89C84-9613-4E95-BB5C-208E1E3B0F39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpectativaMercadoMensais.Domain", "ExpectativaMercadoMensais.Domain\ExpectativaMercadoMensais.Domain.csproj", "{2B4A7667-D51B-41C1-803C-3C21E21AB033}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpectativaMercadoMensais.Application", "ExpectativaMercadoMensais.Application\ExpectativaMercadoMensais.Application.csproj", "{692C35E5-7EB4-470D-9DA3-3771D5C027FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpectativaMercadoMensais.CrossCutting.Ioc", "ExpectativaMercadoMensais.CrossCutting.Ioc\ExpectativaMercadoMensais.CrossCutting.Ioc.csproj", "{1FE8A66B-C8EF-49E7-9B6B-E72EB463C269}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpectativaMercadoMensais.Teste", "ExpectativaMercadoMensais.Teste\ExpectativaMercadoMensais.Teste.csproj", "{0246360C-D9A6-4DF4-B89D-7A067C469AC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpectativaMercadoMensais.CrossCutting.Mapper", "ExpectativaMercadoMensais.CrossCutting.Mapper\ExpectativaMercadoMensais.CrossCutting.Mapper.csproj", "{EFB525F2-E214-4800-825D-8966CA8F8194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpectativaMercadoMensais.WpfApp", "ExpectativaMercadoMensais.WpfApp\ExpectativaMercadoMensais.WpfApp.csproj", "{8C78F51C-2310-44BA-950E-E39EF960B245}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B4A7667-D51B-41C1-803C-3C21E21AB033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B4A7667-D51B-41C1-803C-3C21E21AB033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B4A7667-D51B-41C1-803C-3C21E21AB033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B4A7667-D51B-41C1-803C-3C21E21AB033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692C35E5-7EB4-470D-9DA3-3771D5C027FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692C35E5-7EB4-470D-9DA3-3771D5C027FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692C35E5-7EB4-470D-9DA3-3771D5C027FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692C35E5-7EB4-470D-9DA3-3771D5C027FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE8A66B-C8EF-49E7-9B6B-E72EB463C269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE8A66B-C8EF-49E7-9B6B-E72EB463C269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE8A66B-C8EF-49E7-9B6B-E72EB463C269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE8A66B-C8EF-49E7-9B6B-E72EB463C269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0246360C-D9A6-4DF4-B89D-7A067C469AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0246360C-D9A6-4DF4-B89D-7A067C469AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0246360C-D9A6-4DF4-B89D-7A067C469AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0246360C-D9A6-4DF4-B89D-7A067C469AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFB525F2-E214-4800-825D-8966CA8F8194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB525F2-E214-4800-825D-8966CA8F8194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB525F2-E214-4800-825D-8966CA8F8194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB525F2-E214-4800-825D-8966CA8F8194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C78F51C-2310-44BA-950E-E39EF960B245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C78F51C-2310-44BA-950E-E39EF960B245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C78F51C-2310-44BA-950E-E39EF960B245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C78F51C-2310-44BA-950E-E39EF960B245}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A574F04-BE9A-40CB-AC2C-6967DE748A9B} = {FB863949-242E-458E-BDCC-2C37E08C251C}
+		{8085299D-D45D-4E57-B16C-52D2C229EDED} = {FB863949-242E-458E-BDCC-2C37E08C251C}
+		{2B4A7667-D51B-41C1-803C-3C21E21AB033} = {038797AB-4A16-4A7E-AB9A-C9D42202E15D}
+		{692C35E5-7EB4-470D-9DA3-3771D5C027FC} = {73661322-9CB2-49E9-946F-F87E4BA7092E}
+		{1FE8A66B-C8EF-49E7-9B6B-E72EB463C269} = {8085299D-D45D-4E57-B16C-52D2C229EDED}
+		{0246360C-D9A6-4DF4-B89D-7A067C469AC1} = {1E2B57D9-CA00-4E4A-B807-A7A4186E48D1}
+		{EFB525F2-E214-4800-825D-8966CA8F8194} = {8085299D-D45D-4E57-B16C-52D2C229EDED}
+		{8C78F51C-2310-44BA-950E-E39EF960B245} = {2BE69611-CBF0-466D-ABEA-4F4190544FF5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {806A4A4F-0580-4C8C-B315-62AD19A6FB6C}
+	EndGlobalSection
+EndGlobal

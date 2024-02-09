@@ -1,0 +1,8 @@
+﻿<Application x:Class="ExpectativaMercadoMensais.WpfApp.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ExpectativaMercadoMensais.WpfApp">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
